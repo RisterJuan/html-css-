@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url(../fontes/coolvetica.woff);
+}
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background: pink;
+    font-family: "coolvetica";
+
+}
+
+#container {
+
+    width: 960px;
+    padding: 15x;
+    margin: 0 auto;
+    display: block;
+}
+
+#principal {
+
+    padding: 20px 0 0 20px;
+    margin: 20px;
+    background: whitesmoke;
+}
+
+h1 {
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+hr {
+
+    width: 98%;
+}

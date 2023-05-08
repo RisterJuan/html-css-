@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url(../fontes/coolvetica.woff);
+}
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+font-family: "coolvetica";
+background: rgb(41, 40, 41);
+color: rgb(255, 221, 31);
+
+ }
+
+header { margin: 20px;
+}
+
+
+nav {
+ 
+     padding: 25px;
+     margin: 5px;
+ 
+ }
+
+
+#index {
+    text-align: center;
+}
+
+
+ iframe {
+    border: outset 2px rgb(255, 153, 0);
+    margin-left: 30px;
+
+}
+
+
+#container {
+
+    width: 960px;
+    margin: 0 auto;
+    background: rgb(54, 54, 54);
+}
+
+
+
+#container h1, h2, p
+{
+text-align: center;
+text-shadow: 2px 2px black;
+}
+
+
+#canal {
+
+color: rgb(255, 221, 31); 
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+#canal:hover {
+   
+    border-bottom: 5px solid rgb(35, 94, 255);
+    padding: 3px;
+}
+
+#imagem img { 
+    border: outset 2px rgb(255, 153, 0);
+}
+
+.voltar {
+    margin: 20px;
+    padding: 20px;
+   
+}
