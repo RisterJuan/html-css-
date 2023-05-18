@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Forumário</h1>
+    <form action="" method="get" autocomplete="on">
+
+        <p>
+            <label for="iest"> Estado </label>
+            
+            <select name="estado" id="iest" class="form-control" required="required">
+                <option value="PE">Pernambuco</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        
+        </p>
+
+        <p>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof"> 
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contador</option>
+                <option value="DESI">Design</option>
+                <option value="ADM">Administrador</option>
+
+
+            </datalist>
+        </p>
+
+
+
+        <p> 
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+
+
+
+
+    </form>
+    
+</body>
+</html>
