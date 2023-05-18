@@ -5,32 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+
+    <style>
+
+        fieldset { width: 350px;
+        background-color: bisque;
+        font-weight: bolder;
+            
+    }
+    </style>
 </head>
 <body>
     <h1>Teste de Formulario</h1>
 
-
-    <form action="cadastro.php" method="post">
-
-        <p>
-            <label for="iusu">Usuário</label>
-            <input type="text" name="usu" id="iusu" required>
-        </p>
-
-        <p>
-            <label for="isen">Senha: </label>
-            <input type="password" name="sen" id="isen" required>
-        </p>
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-
-        </p>
-
-
-
-    </form>
     
+    <form action="cadastro.php" method="get">
+      
+        <fieldset>
+            <legend> Testandinho </legend>
+            <p>
+                <label for="iusu">Usuário</label>
+                <input type="text" name="usu" id="iusu" required>
+            </p>
+            <p>
+                <label for="isen">Senha: </label>
+                <input type="password" name="sen" id="isen" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" placeholder="seuemail@dominio.com">
+            </p>
+            <label for="icores"> Cores para você testar: </label>
+            <input type="color" name="Cores" id="icores" value="#800000">
+
+            <input type="range" value="5" min="1" max="10" >
+
+            <input type="checkbox" name="teste" id="iteste"> Teste
+            <input type="checkbox" name="teste" id="iteste"> Teste
+            <input type="checkbox" name="teste" id="iteste"> Teste
+            <input type="checkbox" name="teste" id="iteste"> Teste
+            <br>
+            <hr>
+            <input type="radio" name="teste" id="iteste"> Teste
+            <input type="radio" name="teste" id="iteste"> Teste
+            <input type="radio" name="teste" id="iteste"> Teste
+            <input type="radio" name="teste" id="iteste"> Teste
+
+
+           
+        </fieldset>
+
+        </p>
+    </form>
+
+
 </body>
 </html>
