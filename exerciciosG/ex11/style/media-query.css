@@ -21,4 +21,4 @@ menu > ul > li {
 }
 
 
-main { width: 768px;}
+main { max-width: 768px;}
