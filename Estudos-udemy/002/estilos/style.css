@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* { 
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+section.img-1 { background-image: url(../imagens/sky001.jpg);
+}  
+
+section.img-2 {background-image: url(../imagens/container01.jpg);}
+    
+.img-1, .img-2 {
+    width: 99vw;
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px;
+}
+
+
+section.container { 
+
+    text-align: justify;
+}
